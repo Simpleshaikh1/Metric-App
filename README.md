@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Project Link(githubPage)](https://simpleshaikh1.github.io/)
+- [Live Project Link(netlify)](https://metric-app-v1.netlify.app/)
 - [Project Demo Link](https://www.loom.com/share/f8c0434b325b4035897d257917aa42e3?sid=e580bcbf-dc68-4953-8fdf-2e2a668de330)
 
 
