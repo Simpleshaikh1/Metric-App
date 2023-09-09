@@ -61,7 +61,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Visit this link to see our project: coming soon...
+- [Live Project Link(render)](https://simpleshaikh1.github.io/)
+- [Project Demo Link](https://www.loom.com/share/311a4865524748e4b6162f38a5219f46?sid=c01702bd-8254-41ae-8f82-6a15f0995d1d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
