@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Metric-App/static/css/main.43945f3d.css",
-    "main.js": "/Metric-App/static/js/main.50ed6dd3.js",
+    "main.css": "/Metric-App/static/css/main.580642c6.css",
+    "main.js": "/Metric-App/static/js/main.a9cfcd5c.js",
     "index.html": "/Metric-App/index.html",
-    "main.43945f3d.css.map": "/Metric-App/static/css/main.43945f3d.css.map",
-    "main.50ed6dd3.js.map": "/Metric-App/static/js/main.50ed6dd3.js.map"
+    "main.580642c6.css.map": "/Metric-App/static/css/main.580642c6.css.map",
+    "main.a9cfcd5c.js.map": "/Metric-App/static/js/main.a9cfcd5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.43945f3d.css",
-    "static/js/main.50ed6dd3.js"
+    "static/css/main.580642c6.css",
+    "static/js/main.a9cfcd5c.js"
   ]
 }
