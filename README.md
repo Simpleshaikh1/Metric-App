@@ -62,8 +62,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Project Link(render)](https://simpleshaikh1.github.io/)
-- [Project Demo Link](https://www.loom.com/share/caec70f43eba4f41a15d83a984d9b1e0?sid=1b429e7e-5cd8-4a66-9bf8-edcccaec6d23)
-- [Project Demo Link](https://www.loom.com/share/d58d582b737248dead237ec5df0ac2f1?sid=242dd3ae-434b-4c38-9751-704073c87db2)
+- [Project Demo Link](https://www.loom.com/share/f8c0434b325b4035897d257917aa42e3?sid=e580bcbf-dc68-4953-8fdf-2e2a668de330)
+
 
 <p align="right">(<a href="#readme-top">back to the top</a>)</p>
 
