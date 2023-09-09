@@ -1,0 +1,146 @@
+:root {
+  --red: #9353a1;
+  --light-red: #c27bc1;
+  --light-bg: #bfa3e3;
+  --white: white;
+  --active: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-bg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background-color: var(--red);
+  height: 80px;
+  padding-inline: 10px;
+}
+
+nav {
+  height: 100%;
+  align-items: center;
+}
+
+.card {
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--red);
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.card:nth-child(4n + 2),
+.card:nth-child(4n + 3) {
+  background-color: var(--light-red);
+}
+
+.logo {
+  border: 1px solid var(--white);
+  padding: 10px 50px;
+}
+
+.txt {
+  color: white;
+  font-size: larger;
+}
+
+.d-flex-space-be {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+form {
+  position: relative;
+}
+
+.my5 {
+  margin-top: 10px;
+}
+
+.search-container {
+  width: 100%;
+  padding-inline: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  line-height: 2.5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  border: 3px solid var(--red);
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 20px;
+  right: 3rem;
+  cursor: pointer;
+}
+
+.info-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info {
+  color: var(--white);
+  max-width: 500px;
+  margin: 10px auto;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.info > * {
+  margin-block: 10px;
+}
+
+.info-body > * {
+  margin-block: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.info-body > *:nth-child(even) {
+  background-color: var(--light-red);
+}
+
+.arrow-back {
+  font-size: 2rem;
+  cursor: pointer;
+}
