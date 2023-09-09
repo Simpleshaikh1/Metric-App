@@ -46,6 +46,7 @@ const ListCoins = () => {
         {coinLists.isLoading && <div>loading...</div>}
         {
           !coinLists?.isLoading && coinLists?.coinList?.data?.map((coin) => {
+            // eslint-disable-next-line camelcase
             const { percent_change_24h } = coin;
             return (
               <button
@@ -57,17 +58,20 @@ const ListCoins = () => {
                 <h3>{coin.symbol}</h3>
                 <div className="statistic">
                   <div className="face-up">
-                    {percent_change_24h < 0 ? (
-                      <span>
-                        <FaChevronDown color="red" />
-                        {Math.abs(percent_change_24h).toFixed(2)}
-                      </span>
-                    ) : (
-                      <span>
-                        <FaChevronUp color="green" />
-                        {Math.abs(percent_change_24h).toFixed(2)}
-                      </span>
-                    )}
+                    {
+                      // eslint-disable-next-line camelcase
+                      percent_change_24h < 0 ? (
+                        <span>
+                          <FaChevronDown color="red" />
+                          {Math.abs(percent_change_24h).toFixed(2)}
+                        </span>
+                      ) : (
+                        <span>
+                          <FaChevronUp color="green" />
+                          {Math.abs(percent_change_24h).toFixed(2)}
+                        </span>
+                      )
+                    }
                   </div>
                 </div>
               </button>

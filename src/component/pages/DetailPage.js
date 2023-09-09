@@ -12,6 +12,8 @@ const DetailPage = () => {
   };
 
   const { coins } = location.state || { coins: {} };
+
+  // eslint-disable-next-line camelcase
   const { price_btc } = coins;
 
   return (
