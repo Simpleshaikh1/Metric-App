@@ -10,7 +10,7 @@ exports[`renders correctly 1`] = `
     >
       <a
         aria-current="page"
-        className="active"
+        className="about active"
         href="/"
         onClick={[Function]}
       >
@@ -20,7 +20,7 @@ exports[`renders correctly 1`] = `
     <ul>
       <li>
         <a
-          className=""
+          className="about"
           href="/about"
           onClick={[Function]}
         >
