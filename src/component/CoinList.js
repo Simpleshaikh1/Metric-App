@@ -17,7 +17,15 @@ const ListCoins = () => {
     dispatch(getCoins());
   }, [dispatch]);
 
-  const [search, setSearch] = useState(' ');
+  const [search, setSearch] = useState('');
+  const [filteredCoins, setFilteredCoins] = useState([]);
+
+  useEffect(() => {
+    const filtered = coinLists?.coinList?.data
+      ?.filter((coin) => coin.symbol.toLowerCase().includes(search.toLowerCase()));
+    setFilteredCoins(filtered);
+  }, [search, coinLists?.coinList?.data]);
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
@@ -45,7 +53,7 @@ const ListCoins = () => {
       <div className="container grid my5">
         {coinLists.isLoading && <div>loading...</div>}
         {
-          !coinLists?.isLoading && coinLists?.coinList?.data?.map((coin) => {
+          !coinLists?.isLoading && filteredCoins?.map((coin) => {
             // eslint-disable-next-line camelcase
             const { percent_change_24h } = coin;
             return (

@@ -166,9 +166,12 @@ If you like this project just star it!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- ACKNOWLEDGEMENTS -->
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank everyone who made this project possible
+Original Design Idea by [Nelson Sakwa on Behance](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

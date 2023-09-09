@@ -144,3 +144,14 @@ form {
   font-size: 2rem;
   cursor: pointer;
 }
+
+.about {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.statistic {
+  margin-top: 3px;
+}
