@@ -26,7 +26,7 @@
 - [📝 License](#license)
 
 
-# 📖 "Space Travelers' Hub" <a name="about-project"></a>
+# 📖 "Metric App" <a name="about-project"></a>
 
 **Metric App** is a single page application (SPA), where users can check a list of metrics (numeric values of stock data).
 
