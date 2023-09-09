@@ -21,9 +21,9 @@ const ListCoins = () => {
   const [filteredCoins, setFilteredCoins] = useState([]);
 
   useEffect(() => {
-    const filtered = coinLists?.coinList?.data
+    const filteredd = coinLists?.coinList?.data
       ?.filter((coin) => coin.symbol.toLowerCase().includes(search.toLowerCase()));
-    setFilteredCoins(filtered);
+    setFilteredCoins(filteredd);
   }, [search, coinLists?.coinList?.data]);
 
   const handleSubmit = (e) => {
