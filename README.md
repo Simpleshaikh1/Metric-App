@@ -87,7 +87,7 @@ In order to run and modify this project you need:
 Login to your GitHub account. Clone this repository to your desired folder:
 
 > cd my-folder
-> git clone https://github.com/anshuman7negi/space-traveller.git
+> git clone https://github.com/Simpleshaikh1/Metric-App.git
 
 ### Install
 
