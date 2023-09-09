@@ -14,7 +14,7 @@ export const getCoins = createAsyncThunk('crypto/fetchCrypto', async (_, api) =>
     const res = await axios.get(getCoinUrl);
     return res.data;
   } catch (error) {
-    return api.rejectWithValue('Api failed to fetch');
+    return api.rejectWithValue('Api failed to fetch data');
   }
 });
 

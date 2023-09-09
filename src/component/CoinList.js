@@ -63,8 +63,8 @@ const ListCoins = () => {
                 className="card"
                 onClick={() => detailPage(coin)}
               >
-                <h3>{coin.symbol}</h3>
                 <div className="statistic">
+                  <h3>{coin.symbol}</h3>
                   <div className="face-up">
                     {
                       // eslint-disable-next-line camelcase
