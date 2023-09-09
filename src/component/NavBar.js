@@ -5,11 +5,11 @@ const Navbar = () => (
   <header>
     <nav className="container d-flex-space-be">
       <div className="logo">
-        <NavLink to="/"> Sharecoin </NavLink>
+        <NavLink to="/" className="about"> Sharecoin </NavLink>
       </div>
       <ul>
         <li>
-          <NavLink to="/about"> About </NavLink>
+          <NavLink to="/about" className="about"> About </NavLink>
         </li>
       </ul>
     </nav>
