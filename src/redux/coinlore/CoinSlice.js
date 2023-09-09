@@ -8,7 +8,6 @@ const initialState = {
 };
 
 const getCoinUrl = 'https://api.coinlore.net/api/tickers/';
-// const getCoinUrl = 'https://api.coincap.io/v2/assets';
 
 export const getCoins = createAsyncThunk('crypto/fetchCrypto', async (_, api) => {
   try {
